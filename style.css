@@ -1,0 +1,167 @@
+.mainPage
+{
+	max-width: 500 !important;
+	margin: auto;
+	margin-top: 4%;
+	font-family: sans-serif;
+	letter-spacing: 0.5px;
+
+}
+
+img
+{
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+.msg-header
+{
+	border: 1px solid #ccc;
+	width: 50%;
+	height: 10%;
+	border-bottom: none;
+	display: inline-block;
+	background-color: #007bff;
+
+}
+
+.msg-header-icon
+{
+	border-radius: 40%;
+	width: 40px;
+	margin-left: 5%;
+	margin-top: 2px;
+	float: left;
+}
+
+.active
+{
+	 width: 120px;
+	 float: left;
+	 margin-top: 10px;
+
+}
+
+.active h4
+{
+	font-size: 20px;
+	margin-left: 10px;
+	color: #fff;
+
+}
+
+.active h6
+{
+	font-size: 10px;
+	margin-left: 10px;
+	color: #fff;
+	line-height: 2px;
+}
+.chat-page
+{
+	padding: 0 0 60px 0;
+	width:  50%;
+}
+
+.msg-inbox
+{
+	border: 1px solid #ccc;
+	overflow: hidden;
+	padding-bottom: 30px;
+
+}
+
+.chats
+{
+	padding: 30px 15px 0 25px;
+}
+
+.msg-page
+{
+	height: 516px;
+	overflow-y: auto;
+}
+
+.recieved-msg
+{
+	display: inline-block;
+	padding: 0 0 0 10px;
+	vertical-align: top;
+	width:  75%;
+}
+
+.recieved-msg-inbox p
+{
+	background: #efefef none repeat scroll 0 0;
+	border-radius: 10px;
+	color: #646464;
+	font-size: 14px;
+	margin: 0;
+	padding: 5px 10px 5px 12px;
+	width: 100%;
+}
+
+.msg-bottom
+{
+	position: relative;
+	height: 70px;
+	background-color: #007bff;
+}
+
+
+.bottom-icons
+{
+	float: left;
+	margin-top: 17px;
+	width: 30% !important;
+	margin-left: 22px;
+}
+
+.bottom-icons .fa
+{
+	color: #fff;
+	padding: 5px;
+}
+
+.input-group
+{
+	float: right;
+	margin-top: 13px;
+	margin-right: 50px;
+	outline: none !important;
+	border-radius: 20px;
+	width: 50% !important;
+	background-color: #fff;
+  height: 39px !important;
+}
+
+.form-horizontal
+{
+  margin-top:0;
+  width: 100% !important;
+  display:flex !important;
+  flex-direction: row;
+}
+
+
+.form-control
+{
+  border: none !important;
+  border-radius: 20px !important;
+  
+}
+
+.chat-btn
+{
+  background: transparent !important;
+  border: none !important;
+  float:right !important;
+}
+
+
+.form-control:focus
+{
+	border-color: none !important;
+	box-shadow: none !important;
+	border-radius: 20px;
+}
